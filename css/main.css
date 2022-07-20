@@ -1,192 +1,193 @@
 /* main css3 */
-    body {
-        background-color: rgba(10, 10, 10, 1.0);
-        background-color: rgba(10, 10, 10, 0);
-        background-color: rgba(10, 10, 10, 1.0);
-        background-image: url("/assets/img/serget-rodovia.png");
-        color: bisque;
-        text-align: center;
-        background: "/assets/img/serget-rodovia.png";
-    }
-    
-    .radia-fade {
-        background-image: url("https://serget-devam.github.io/website/assets/img/serget-rodovia.png");
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/rgb(202, 175, 18)000+0,000000+100&0+0,0.65+100 */
-        background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
-        /* FF3.6-15 */
-        background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
-        /* Chrome10-25,Safari5.1-6 */
-        background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.10) 20%, rgba(0, 0, 0, 0.65) 70%, rgba(0, 0, 0, 0.75) 100%);
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.10) 20%, rgba(0, 0, 0, 0.65) 70%, rgba(0, 0, 0, 0.75) 100%), url("https://serget-devam.github.io/website/assets/img/serget-rodovia.png");
-        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='rgb(202, 175, 18)00000', endColorstr='#a6000000', GradientType=1);
-        /* IE6-9 fallback on horizontal gradient */
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-    }
-    
-    #menu-top {
-        margin-left: 40px;
-        margin-right: 40px;
-        position: relative;
-        min-height: 40pt;
-        border-bottom: 1pt solid gray;
-        vertical-align: text-bottom;
-    }
-    
-    #menu-top-content {
-        margin: 15px 105px 1px 1px;
-        float: right;
-    }
-    
-    #logomarca {
-        float: left;
-        height: 30 px;
-        width: 30 px;
-        color: yellow;
-        /*border: 1px solid black;*/
-        margin: 5px 10px 5px 70px;
-        font-size: 35px;
-    }
-    
-    #logo {
-        float: left;
-        height: 30 px;
-        width: 120 px;
-        /*border: 1px solid black;*/
-        margin: 15px 1px 1px 1px;
-        color: bisque;
-        font-size: 20px;
-    }
-    
-    #conteiner {
-        margin: auto;
-        margin-left: 20px;
-        margin-right: 20px;
-        position: relative;
-        min-height: 300pt;
-        border-left: 1px solid gray;
-        border-right: 1px solid gray;
-        vertical-align: text-bottom;
-    }
-    
-    #conteiner-content {
-        display: block;
-        /*position: absolute;*/
-        left: 7%;
-        bottom: 0;
-    }
-    
-    #title {
-        /*font-family: sans; color: yellow;*/
-        color: rgb(255, 217, 0);
-        font-kerning: auto;
-        -webkit-text-stroke: 1px rgb(202, 175, 18);
-        /* width and color 
-            /* 1 pixel black shadow to left, top, right and bottom */
-        /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-        /*
-                text-shadow: 1px 1px 0 rgb(202, 175, 18),
-                -1px 1px 0 rgb(202, 175, 18),
-                1px -1px 0 rgb(202, 175, 18),
-                -1px -1px 0 rgb(202, 175, 18),
-                0px 1px 0 rgb(202, 175, 18),
-                0px -1px 0 rgb(202, 175, 18),
-                -1px 0px 0 rgb(202, 175, 18),
-                1px 0px 0 rgb(202, 175, 18),
-                2px 2px 0 rgb(202, 175, 18),
-                -2px 2px 0 rgb(202, 175, 18),
-                2px -2px 0 rgb(202, 175, 18),
-                -2px -2px 0 rgb(202, 175, 18),
-                0px 2px 0 rgb(202, 175, 18),
-                0px -2px 0 rgb(202, 175, 18),
-                -2px 0px 0 rgb(202, 175, 18),
-                2px 0px 0 rgb(202, 175, 18),
-                1px 2px 0 rgb(202, 175, 18),
-                -1px 2px 0 rgb(202, 175, 18),
-                1px -2px 0 rgb(202, 175, 18),
-                -1px -2px 0 rgb(202, 175, 18),
-                2px 1px 0 rgb(202, 175, 18),
-                -2px 1px 0 rgb(202, 175, 18),
-                2px -1px 0 rgb(202, 175, 18),
-                -2px -1px 0 rgb(202, 175, 18);
-                */
-    }
-    
-    .link-menu {
-        margin: 0px 50px 20px 0px;
-    }
-    
-    a {
-        color: bisque;
-        text-decoration-line: none;
-    }
-    
-    a:hover {
-        color: rgb(202, 175, 18);
-        color: rgb(255, 217, 0);
-        text-decoration-line: underline;
-    }
-    
-    #cards {
-        display: inline-flex;
-        height: 100%;
-        margin-top: 40px;
-    }
-    
-    .card {
-        float: left;
-        margin: 5px 20px 20px 5px;
-        padding: 5px;
-        border: 1px solid gray;
-        min-height: 180px;
-        min-width: 160px;
-        background-color: dimgray;
-        color: ghostwhite;
-    }
-    
-    .card:hover {
-        cursor: pointer;
-        background-color: #EBEB5E;
-        color: dimgray;
-    }
-    
-    #btn-todos-servicos {
-        display: block;
-        margin: auto;
-        margin-top: 50px;
-        margin-bottom: 30px;
-        text-align: center;
-        border: 3px solid #EBEB5E;
-        background-color: rgba(0, 0, 0, 0);
-        color: ghostwhite;
-        padding: 10px 25px 10px 25px;
-    }
-    
-    #btn-todos-servicos:hover {
-        background-color: #EBEB5E;
-        color: dimgray;
-    }
-    
-    #title {
-        margin: 50px 1px 1px 1px;
-    }
-    
-    .img-card {
-        margin: auto;
-        display: block;
-        height: 50px;
-        width: 50px;
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-    
-    #bottom {
-        margin-top: 10px;
-        margin-left: 40px;
-        margin-right: 40px;
-        border-top: 1px solid gray;
-        text-align: left;
-        pa
+body {
+    background-color: rgba(10, 10, 10, 1.0);
+    background-color: rgba(10, 10, 10, 0);
+    background-color: rgba(10, 10, 10, 1.0);
+    background-image: url("/assets/img/serget-rodovia.png");
+    color: bisque;
+    text-align: center;
+    background: "/assets/img/serget-rodovia.png";
+}
+
+.radia-fade {
+    background-image: url("https://serget-devam.github.io/website/assets/img/serget-rodovia.png");
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/rgb(202, 175, 18)000+0,000000+100&0+0,0.65+100 */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.10) 20%, rgba(0, 0, 0, 0.65) 70%, rgba(0, 0, 0, 0.75) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.10) 20%, rgba(0, 0, 0, 0.65) 70%, rgba(0, 0, 0, 0.75) 100%), url("https://serget-devam.github.io/website/assets/img/serget-rodovia.png");
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='rgb(202, 175, 18)00000', endColorstr='#a6000000', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#menu-top {
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    min-height: 40pt;
+    border-bottom: 1pt solid gray;
+    vertical-align: text-bottom;
+}
+
+#menu-top-content {
+    margin: 15px 105px 1px 1px;
+    float: right;
+}
+
+#logomarca {
+    float: left;
+    height: 30 px;
+    width: 30 px;
+    color: yellow;
+    /*border: 1px solid black;*/
+    margin: 5px 10px 5px 70px;
+    font-size: 35px;
+}
+
+#logo {
+    float: left;
+    height: 30 px;
+    width: 120 px;
+    /*border: 1px solid black;*/
+    margin: 15px 1px 1px 1px;
+    color: bisque;
+    font-size: 20px;
+}
+
+#conteiner {
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    min-height: 300pt;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    vertical-align: text-bottom;
+}
+
+#conteiner-content {
+    display: block;
+    /*position: absolute;*/
+    left: 7%;
+    bottom: 0;
+}
+
+#title {
+    /*font-family: sans; color: yellow;*/
+    color: rgb(255, 217, 0);
+    font-kerning: auto;
+    -webkit-text-stroke: 1px rgb(202, 175, 18);
+    /* width and color 
+        /* 1 pixel black shadow to left, top, right and bottom */
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+    /*
+            text-shadow: 1px 1px 0 rgb(202, 175, 18),
+            -1px 1px 0 rgb(202, 175, 18),
+            1px -1px 0 rgb(202, 175, 18),
+            -1px -1px 0 rgb(202, 175, 18),
+            0px 1px 0 rgb(202, 175, 18),
+            0px -1px 0 rgb(202, 175, 18),
+            -1px 0px 0 rgb(202, 175, 18),
+            1px 0px 0 rgb(202, 175, 18),
+            2px 2px 0 rgb(202, 175, 18),
+            -2px 2px 0 rgb(202, 175, 18),
+            2px -2px 0 rgb(202, 175, 18),
+            -2px -2px 0 rgb(202, 175, 18),
+            0px 2px 0 rgb(202, 175, 18),
+            0px -2px 0 rgb(202, 175, 18),
+            -2px 0px 0 rgb(202, 175, 18),
+            2px 0px 0 rgb(202, 175, 18),
+            1px 2px 0 rgb(202, 175, 18),
+            -1px 2px 0 rgb(202, 175, 18),
+            1px -2px 0 rgb(202, 175, 18),
+            -1px -2px 0 rgb(202, 175, 18),
+            2px 1px 0 rgb(202, 175, 18),
+            -2px 1px 0 rgb(202, 175, 18),
+            2px -1px 0 rgb(202, 175, 18),
+            -2px -1px 0 rgb(202, 175, 18);
+            */
+}
+
+.link-menu {
+    margin: 0px 50px 20px 0px;
+}
+
+a {
+    color: bisque;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: rgb(202, 175, 18);
+    color: rgb(255, 217, 0);
+    text-decoration-line: underline;
+}
+
+#cards {
+    display: inline-flex;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.card {
+    float: left;
+    margin: 5px 20px 20px 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    min-height: 180px;
+    min-width: 160px;
+    background-color: dimgray;
+    color: ghostwhite;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: #EBEB5E;
+    color: dimgray;
+}
+
+#btn-todos-servicos {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 3px solid #EBEB5E;
+    background-color: rgba(0, 0, 0, 0);
+    color: ghostwhite;
+    padding: 10px 25px 10px 25px;
+}
+
+#btn-todos-servicos:hover {
+    background-color: #EBEB5E;
+    color: dimgray;
+}
+
+#title {
+    margin: 50px 1px 1px 1px;
+}
+
+.img-card {
+    margin: auto;
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#bottom {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top: 1px solid gray;
+    text-align: left;
+    padding: 5px;
+}
