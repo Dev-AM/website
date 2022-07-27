@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serget</title>
+    <script src="assets\js\main.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+
+<body class="radia-fade">
+    
+    <div id="menu-top">
+        <div include-html="pages\modular\leftTopLogo.html"></div>
+        <div include-html="pages\modular\menuTop.html"></div>
+    </div>
+    <div id="conteiner">
+        <!--div include-html="pages\modular\conteinerIndex.html"></div-->
+                <div id="cards">
+                <div id="card1" class="card">
+                    <image class="img-card"></image>
+                    Confiabilidade
+                    <h6>Saber mais sobre</h6>
+                </div>
+                <div id="card2" class="card">
+                    <image class="img-card"></image>
+                    Adequação
+                    <h6>Saber mais sobre</h6>
+                </div>
+                <div id="card3" class="card">
+                    <image class="img-card"></image>
+                    Sustentabilidade
+                    <h6>Saber mais sobre</h6>
+                </div>
+                <div id="card4" class="card">
+                    <image class="img-card"></image>
+                    Solução
+                    <h6>Saber mais sobre</h6>
+                </div>
+        </div>                                      
+        </div><div id="footer">
+
+    <footer id="bottom">
+        <h6>Copyright 2021 - 2022 Serget Mobilidade Viárias</h6>
+    </footer></div>
+</body>
+<script>
+    class HTMLInclude extends HTMLElement {
+        constructor() {
+            super();
+            this.innerHTML = "Loading...";
+            this.loadContent();
+        }
+
+        async loadContent() {
+            const source = this.getAttribute("src");
+            if (!source) {
+                throw new Error("No src attribute given.");
+            }
+            const response = await fetch(source);
+            if (response.status !== 200) {
+                throw new Error(`Could not load resource: ${source}`);
+            }
+            const content = await response.text();
+            this.innerHTML = content;
+        }
+    }
+    window.customElements.define("html-include", HTMLInclude);
+    includeHTML()
+</script>
+<script src="assets\js\main.js"></script>
+
+</html>
