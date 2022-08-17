@@ -5,24 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serget</title>
-    <script src="assets\js\main.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/img/Ativo 3.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap-js/bootstrap.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap-css/bootstrap.css">
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
     <link rel="stylesheet" href="assets/css/main.css">
+    
 </head>
-<script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
-
 <body class="radia-fade">
     
     <div id="menu-top">
-        <div include-html="pages\modular\leftTopLogo.html"></div>
-        <div include-html="pages\modular\menuTop.html"></div>
+        <div id="leftTopLogo" include-html="pages\modular\leftTopLogo.html"></div>
+        <div id="menuTop" include-html="pages\modular\menuTop.html"></div>
     </div>
+    
     <div id="conteiner">
-        <div include-html="pages\modular\conteinerIndex.html"></div>
-        </div><div id="footer">
-
-    <footer id="bottom">
-        <h6>Copyright 2021 - 2022 Serget Mobilidade Viárias</h6>
-    </footer></div>
+        <h1 id="title">Serget Mobilidade Viária</h1>
+        <h3>Trazendo as estradas do futuro mais seguras para você</h3>
+        <div include-html="pages\caroussel.html"></div>
+        <div include-html="pages\conteinerHomer.html"></div>
+    </div>
+        <div id="footer">
+        <footer id="bottom">
+            <h6>Copyright 2021 - 2022 Serget Mobilidade Viárias</h6>
+        </footer>
+    </div>
 </body>
 <script>includeHTML()</script>
 </html>

@@ -34,13 +34,13 @@ body {
     margin-left: 40px;
     margin-right: 40px;
     position: relative;
-    min-height: 40pt;
+    min-height: 60pt;
     border-bottom: 1pt solid gray;
     vertical-align: text-bottom;
 }
 
 #menu-top-content {
-    margin: 15px 105px 1px 1px;
+    margin: 15px 15px 25px 1px;
     float: right;
 }
 
@@ -50,7 +50,7 @@ body {
     width: 30 px;
     color: yellow;
     /*border: 1px solid black;*/
-    margin: 5px 10px 5px 70px;
+    margin: 5px 10px 5px 50px;
     font-size: 35px;
 }
 
@@ -73,6 +73,7 @@ body {
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     vertical-align: text-bottom;
+    padding: 15px 35px 5px 35px;
 }
 
 #conteiner-content {
@@ -116,10 +117,12 @@ body {
             2px -1px 0 rgb(202, 175, 18),
             -2px -1px 0 rgb(202, 175, 18);
             */
+            margin: 10px 1px 10px 1px;
+            
 }
 
 .link-menu {
-    margin: 0px 50px 20px 0px;
+    margin: 0px 30px 20px 0px;
 }
 
 a {
@@ -145,7 +148,7 @@ a:hover {
     padding: 5px;
     border: 1px solid rgba(128, 128, 128, 0.4);
     min-height: 180px;
-    min-width: 160px;
+    min-width: 15em;
     background-color: rgba(105, 105, 105, 0.4);
     color: ghostwhite;
 }
@@ -171,10 +174,6 @@ a:hover {
 #btn-todos-servicos:hover {
     background-color: #EBEB5E;
     color: dimgray;
-}
-
-#title {
-    margin: 50px 1px 1px 1px;
 }
 
 .img-card {
@@ -221,10 +220,55 @@ a:hover {
     height: 100%;
     padding: 15px;
     gap: 5px;
+    display: flex;
+            flex-wrap: wrap;
 
   }
+  
 .flex-cards{
 border: 3px solid #ffcc80;
 border-radius: 5px;
 padding: 8px;
+}
+#body-flex{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Modular Botton */
+#botton{
+    width: 100%;
+    min-height: 250px;
+    max-height: 300px;
+    color: rgba(20, 20, 48, 0);
+}
+
+.border-carousel{
+    border: solid darkgoldenrod;
+    border-radius: 50pt;
+    height: 350px;
+}
+
+.back-text{
+    background-color: rgba(30, 30, 0, 0.5);
+    border-radius: 10pt;
+}
+
+#contato{
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+#email{
+    font:bold;
+}
+
+#end{
+    display: inline-flex;
+    padding: 10px;
+    text-align: left;
 }
