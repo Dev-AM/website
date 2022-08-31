@@ -59,7 +59,8 @@ body {
     height: 30 px;
     width: 120 px;
     /*border: 1px solid black;*/
-    margin: 15px 1px 1px 1px;
+    /*margin: 15px 1px 1px 1px;*/
+    margin: 33px 1px 1px -25px;
     color: bisque;
     font-size: 20px;
 }
@@ -253,6 +254,10 @@ padding: 8px;
 .back-text{
     background-color: rgba(30, 30, 0, 0.5);
     border-radius: 10pt;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    text-align: left;
 }
 
 #contato{
@@ -260,15 +265,111 @@ padding: 8px;
     display: inline-flex;
     padding: 10px;
     text-align: left;
-    
+    padding-left: 50px;
 }
 
 #email{
     font:bold;
 }
-
-#end{
+#endereco{
+    margin-top: 20px;
     display: inline-flex;
     padding: 10px;
     text-align: left;
+    padding-left: 50px;
+}
+#contato{
+    color: #fbc300;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+}
+#info-contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+#video-title{
+    /*border: solid #62620075 10px;*/
+    border: solid rgba(132, 97, 8, 0.807);
+    border-radius: 10px;
+    width:900px; 
+    height:500px; 
+    margin:auto;
+}
+
+.btn-aceite{
+    background-color: #8d929eb8;
+    color: #2f3239;
+    border-radius: 3px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    /* position: relative; */
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    /* border: 0 none; */
+    /* vertical-align: middle; */
+    height: 40px;
+    line-height: 40px;
+    padding: 0 17px;
+    font-size: 14px;
+    margin: auto;
+    transition: all 0.3s;
+    /* border-radius: 20px; */
+    text-decoration: none;
+    cursor: pointer;
+
+    margin:auto;
+    margin-top: 15px;
+
+}
+
+.btn-aceite:hover{
+    background-color: #8d929e;
+    color: #ffe100;
+}
+
+.btn-primary{
+    background: #fde60d85;
+}
+.btn-primary:hover{
+    background: #bc8a00d8;
 }
